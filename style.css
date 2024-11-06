@@ -1,0 +1,335 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color:#18BA51;
+    --primary-bg-color: #F4F4F4;
+    --secondary-bg-color:#101010;
+    --tertiary-bg-color:#FFFFFF;
+    --fourth-bg-color:#171717;
+    --primary-text-color:#303030;
+    --secondary-text-color:#ABABAB;
+    --tertiary-text-color:#777777;
+    --additional-bg-color: #1D1F24;
+    --additional-text-color: #16A94A;
+
+}
+body {
+    background-color:var(--primary-bg-color);
+    font-family: Montserrat;
+}
+    
+header {
+    background-color: var(--secondary-bg-color); 
+    padding: 19px;
+    text-align: center;}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    height: 100vh;
+}
+
+#hero-section{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;}
+
+#hero-section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700; }
+h1{
+    font-size: 72px; 
+    font-weight: 700;}
+
+h4 {
+    font-size: 24px; 
+    color: var(--secondary-text-color)}
+
+#hero-section-images {
+    display: flex;
+    justify-content: space-between;}
+
+
+
+#feature-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#feature-section-route{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;}
+
+#feature-section-route-title {
+    display: flex;
+    flex-direction: column;   
+    gap: 10px;}
+
+h3 {
+    color: var(--primary-text-color); 
+    font-size: 48px;}
+h5 {
+    font-weight: 700; 
+    size: 24px; 
+    color:var(--secondary-text-color); }
+
+#feature-section-route-place {
+    display: flex;
+    flex-direction: column;
+    gap: 39.8px;
+}
+
+.feature-section-route-place-horizontal-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;}  
+
+span{
+    background-color:var(--additional-bg-color); 
+    width: 56px; 
+    height: 56px; 
+    border-radius: 40px; 
+    padding: 17.5px; 
+    text-align: center; 
+    color: var(--additional-text-color); 
+    font-weight: 700; 
+    font-size: 17px; 
+    position: relative;}
+
+.bordervertical {
+    border-left: 3px dashed #1D1F24; 
+    height: 40px; 
+    position: absolute; 
+    left: 26.5px;
+    bottom: -40px;
+}
+    
+.feature-section-route-place-horizontal-container >div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+h6 {
+    font-weight: 700; 
+    font-size: 16px; 
+    color:  #000000; }
+
+ .feature-section-route-place-horizontal-container >div >p{
+    font-weight: 400;  
+    font-size: 12px; 
+    color: #777777; 
+    }
+
+
+ #feature-section-map{
+    background-image: url(./Mask\ group\ \(1\).png); 
+    width: 692px; 
+    height: 845px; 
+    position: relative;}
+
+#feature-section-map >img {
+    position: absolute; 
+}
+    
+
+#img1 {
+    top: 182px; 
+    left: 113px; 
+    right: 544px; 
+    bottom: 607px;}
+
+#img2 {
+    top: 461px; 
+    left: 52px; 
+    right: 605px; 
+    bottom: 328px;}
+
+#img3 {
+    top: 451px; 
+    left: 85px; 
+    right: 572px; 
+    bottom: 338px;}
+
+#img4 {
+    top: 461px; 
+    left: 641px; 
+    right: 5px; 
+    bottom: 328px;}
+
+#img5 {
+    top: 296px; 
+    left: 551px; 
+    right: 106px; 
+    bottom: 506px;}
+
+#feature-section-map >p {
+    font-weight: 800; 
+    font-size: 8px; 
+    color:#000000; 
+    position: absolute; 
+}
+
+#D5 {
+    left: 127px; 
+    top: 190px; 
+    right: 546px; 
+    bottom: 655px;}
+
+#D4{
+    left: 66px; 
+    top: 469px; 
+    right: 607px; 
+    bottom: 376px;}
+
+#D3 {
+    left: 99px; 
+    top: 459px; 
+    right: 574px; 
+    bottom:386px;}
+
+#D2 {
+    left: 565px; 
+    top: 304px; 
+    right: 108px; 
+    bottom: 541px;}
+
+#D1D6 {
+    left: 655px; 
+    top: 469px; 
+    right: 10px; 
+    bottom: 376px;}
+
+
+#pricing-section {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    margin-top: 240px;}
+
+#pricing-section-title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;}
+
+#pricingofouragencytext {
+    text-align: center;
+}
+
+#pricing-section-cards-container {
+    display: flex;
+    gap: 20px;
+}
+
+.pricing-section-cards{
+    border-radius: 24px;
+    padding: 40px;
+    background-color: var(--tertiary-bg-color);
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.pricing-section-cards:hover {
+    border: 2px solid var(--primary-color);
+}
+
+.starter-luxurypack-text {
+    font-weight: 700; 
+    font-size: 24px;
+    color: var(--primary-text-color);
+}
+
+#starterpack-alone-text {
+    font-weight: 700; 
+    font-size: 20px; 
+    line-height: 24.38px; 
+    color: var(--tertiary-text-color);
+}
+
+.pricing-section-cards-text{
+    height: 229px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.list-texts {
+    font-weight: 500; 
+    font-size: 20px; 
+    color: var(--tertiary-text-color);}
+
+.price {
+    width: 205px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--primary-text-color);}
+
+
+#top-footer {
+    padding: 150px;
+    background-color: var(--fourth-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    color: #FFFFFF; 
+    font-size: 32px;
+}
+
+#ordernow { 
+    background-color: var(--primary-color); 
+    padding: 12px 20px;
+    font-size: 16px; 
+    color: var(--tertiary-bg-color); }
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+    font-weight: 700px; 
+    border-radius: 4px;
+}
+
+#bottom-footer {
+    background-color: var(--secondary-bg-color);
+    padding: 80px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+#face-insta-container {
+    display: flex;
+    gap: 20px;
+}
+
+#face-insta-container >a >button {
+    background-color: var(--primary-text-color);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px; 
+    color: var(--tertiary-bg-color);
+}
